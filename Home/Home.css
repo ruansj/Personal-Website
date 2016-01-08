@@ -1,16 +1,31 @@
 .home_profile {
   position: relative;
   width: 100%;
-  height: 400px;
-  top: 61px;
+  top: 100px;
 }
 
+#profile_pic {
+  width: 100%;
+  border-radius: 50%;
+}
 
-/************************************************/
-/*                    Home                      */
-/************************************************/
-/*Large Welcome Photo Space*/
-.home_page {
+#full_name {
+  text-align: center;
+  color: black;
+  vertical-align: middle;
+  font-family: Helvetica;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.line {
+  width: 40%;
+  height: 2px;
+  background-color: black;
+  margin: auto;
+}
+
+/*.home_page {
   display: none;
   width: 100%;
   height: 100%;
@@ -33,7 +48,6 @@
   top: 25%;
 }
 
-/*Large Welcome Text*/
 #welcome {
   display: none;
   color: black;
@@ -50,10 +64,9 @@
   margin: auto;
 }
 
-/*Slogan Text*/
 #slogan {
   padding-top: 30px;
   display: none;
   color: black;
   font-size: 25px;
-}
+}*/
