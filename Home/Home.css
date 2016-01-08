@@ -1,72 +1,57 @@
 .home_profile {
   position: relative;
   width: 100%;
-  top: 100px;
+  top: 25vh;
+  color: black;
+}
+
+.home_profile .row {
+  width: 100%;
+  margin: auto;
 }
 
 #profile_pic {
-  width: 100%;
+  display: block;
+  margin: auto;
+  width: 70%;
   border-radius: 50%;
+}
+
+#name_block {
+  position: relative;
+  margin: auto;
+  top: 6vw;
 }
 
 #full_name {
   text-align: center;
   color: black;
-  vertical-align: middle;
-  font-family: Helvetica;
-  font-size: 56px;
+  font-family: 'Felipa', Helvetica;
+  font-size: 5em;
+  letter-spacing: 5px;
   font-weight: bold;
 }
 
-.line {
-  width: 40%;
-  height: 2px;
-  background-color: black;
-  margin: auto;
-}
-
-/*.home_page {
-  display: none;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: auto;
-}
-
-.home_page #background {
-  position: fixed;
-  min-height: 100%;
-  min-width: 100%;
-}
-
-.home_page .container {
+/*.line {
   position: relative;
-  text-align: center;
-  font-family: 'Ubuntu', Tahoma, sans-serif;
-  top: 25%;
-}
-
-#welcome {
-  display: none;
-  color: black;
-  font-size: 65px;
-  padding-bottom: 30px;
-}
-
-.line {
-  display: none;
-  background-color: orange;
-  position: relative;
-  width: 70px;
+  top: 5.5vw;
+  width: 80%;
   height: 2px;
+  background-color: gray;
   margin: auto;
-}
-
-#slogan {
-  padding-top: 30px;
-  display: none;
-  color: black;
-  font-size: 25px;
 }*/
+
+#message_block {
+  position: relative;
+  margin: auto;
+  top: 7vw;
+}
+
+#message {
+  text-align: center;
+  color: gray;
+  vertical-align: middle;
+  font-family: Georgia;
+  font-size: 2em;
+  font-style: italic;
+}
